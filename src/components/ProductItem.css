@@ -1,0 +1,4 @@
+﻿.product-card img {
+    width: 100px; /* Ajusta este valor al tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
