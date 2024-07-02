@@ -5,7 +5,7 @@ import { Modal } from "./components/modal"
 
 function App() {
   return (
-    //este codigo es para componente Comment
+  
     <div>
       <Comment
         username="jvrhermosilla"
@@ -14,13 +14,13 @@ function App() {
       />
 
       <ProductItem name="pelota" price=" $ 100" img={Pelota} />
-      <Modal title="Modal" content="Este es un modal" />
+      <div>
+      <Modal title="Modal" content="Agregar al Carrito a la pelota:"/>
+      </div>
     </div>
   );
 
-  // este codigo es para componente productItem
-
-  // )
+ 
 }
 
 export default App;

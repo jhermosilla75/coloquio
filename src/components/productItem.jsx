@@ -18,7 +18,7 @@ function ProductItem(props) {
   );
 }
 
-function onAddToCar(productName) {
+function onAddToCar(nombre) {
   document.querySelector('.modal').classList.add("is-active");
 }
 
