@@ -2,6 +2,7 @@ import { ProductItem } from "./components/productItem";
 import Pelota from "./assets/Pelota.webp";
 import { Comment } from "./components/comment";
 import { Modal } from "./components/modal"
+import { AlertButton } from "./components/AlertButton"
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       />
 
       <ProductItem name="pelota" price=" $ 100" img={Pelota} />
+      <div>
+      <AlertButton />
+      </div>
       <div>
       <Modal title="Modal" content="Agregar al Carrito a la pelota:"/>
       </div>
